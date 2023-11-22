@@ -1,0 +1,36 @@
+.content{
+    padding: 7rem 0;
+}
+
+body, td, h1, h2, h3, h4, h5, h6 {
+    font-family: "Noto Sans JP", "Yu Gothic Medium", "YuGothic", "Yu Gothic Medium", "Yu Gothic", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    background-color: white;
+  }
+  
+  .login-page{
+      background-color: #f4fcf1;
+  }
+  
+  .login-box{
+      width: 540px;
+  }
+  /* SIGN IN BUTTON */
+  .signInBtn{
+      background-color: #87b829;
+      transition: 0.5s;
+      color: white;
+      font-weight: bold;
+      box-shadow: #8f9485 1px 2px px 2px;
+  }
+  
+  .innerBtn{
+    background-color: #87b829;
+    transition: 0.5s;
+    color: white;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .innerBtn:hover{
+    background-color: #adafad ;
+  }

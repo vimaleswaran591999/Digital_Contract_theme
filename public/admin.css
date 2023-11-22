@@ -1,0 +1,54 @@
+.navbarStyle1{
+    background-color: #F6F6F6;
+    box-shadow: #dedbdb 1px 1px 5px 0px;
+    height: 10vh;
+  }
+
+  .filterContainer2{
+    box-shadow: #e5dfdf 1px 1px 4px 1px;
+    padding: 25px;
+    border-radius: 25px;
+    background: white;
+  }
+
+
+  /* FOOTER */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Set your preferred background color */
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* SIGN IN BUTTON */
+.signInBtn{
+    background-color: #87b829;
+    transition: 0.5s;
+    color: white;
+    font-weight: bold;
+    box-shadow: #8f9485 1px 2px px 2px;
+}
+
+.innerBtn{
+  background-color: #87b829;
+  transition: 0.5s;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.innerBtn:hover{
+  background-color: #adafad ;
+}
+.required {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    padding: 0px 4px 0px 3px;
+    border-radius: 2px;
+  }

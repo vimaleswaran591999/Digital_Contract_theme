@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e2cbbe;
+    color: #161346;
+    background-image: url(./assets/BackCover.jpeg);
+}
+
+
+
+.container{
+    max-width: 87vw;
+}
+
+canvas#signature-pad {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    cursor: crosshair;
+}
+
+.card{
+    background-color: #ffffffdb;
+}
+
+.navbarStyle1{
+    background-color: #ffffffdb;
+    box-shadow: #d5d5d5 1px 1px 5px 0px;
+    height: 10vh;
+    position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Set your preferred background color */
+    text-align: center;
+    padding: 10px;
+}
+
+
+.container2{
+    width: 100%;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #fdfdfd;
+    padding: 25px;
+    margin-top: 1% !important;
+}
+
+.button{
+   background-color: whitesmoke;
+    padding: 15px;
+    width: 98px;
+    border-radius: 25px;
+    border: 2px solid wheat;
+}
